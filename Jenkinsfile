@@ -12,7 +12,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git url: 'https://github.com/harshini-m-devops/react-ecommerce-devops-ci-cd.git'
+                git url: 'https://github.com/harshini-m-devops/Reactjs-E-commerce-Application.git'
             }
         }
 
