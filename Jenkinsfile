@@ -10,12 +10,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Code') {
-            steps {
-                git url: 'https://github.com/harshini-m-devops/Reactjs-E-commerce-Application.git'
-            }
-        }
-
         stage('Build Image') {
             steps {
                 sh 'chmod +x build.sh'
